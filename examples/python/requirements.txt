@@ -10,7 +10,7 @@ certifi==2021.5.30
     # via requests
 charset-normalizer==2.0.4
     # via requests
-google-api-core==2.0.1
+google-api-core==2.7.2
     # via
     #   google-cloud-core
     #   google-cloud-storage
@@ -19,13 +19,13 @@ google-auth==2.0.2
     #   google-api-core
     #   google-cloud-core
     #   google-cloud-storage
-google-cloud-core==2.0.0
+google-cloud-core==2.3.0
     # via google-cloud-storage
-google-cloud-storage==1.42.2
+google-cloud-storage==2.3.0
     # via -r requirements.in
 google-crc32c==1.1.3
     # via google-resumable-media
-google-resumable-media==2.0.0
+google-resumable-media==2.3.2
     # via google-cloud-storage
 googleapis-common-protos==1.53.0
     # via google-api-core
@@ -49,9 +49,7 @@ requests==2.26.0
 rsa==4.7.2
     # via google-auth
 six==1.16.0
-    # via
-    #   google-cloud-storage
-    #   protobuf
+    # via protobuf
 urllib3==1.26.6
     # via requests
 
